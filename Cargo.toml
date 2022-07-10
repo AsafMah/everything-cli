@@ -1,0 +1,17 @@
+[package]
+name = "everything-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+everything-sys = "0.1.4"
+widestring = "1.0.1"
+clap = { version = "3.2.8", features = ["derive"] }
+anyhow = "1.0.58"
+thiserror = "1.0.31"
+parking_lot = "0.12.1"
+enumflags2 = "0.7.5"
+winapi = {version = "0.3.9", features = ["windef"]}
+once_cell = "1.12.0"
